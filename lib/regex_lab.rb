@@ -11,8 +11,8 @@ text.scan(/\b[un]+\w+[ing]/)
 end
 
 def words_five_letters_long(text)
-text.grep(/\b\w{5}\b/)
-text
+text.match(/\b\w{5}\b/)
+
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
