@@ -24,9 +24,9 @@ end
 end
 
 def valid_phone_number?(phone)
-if phone.scan(/^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/)
-  return true
-else
+if phone.scan(/A-Za-z/)
   return false
+else
+  return true
 end
 end
