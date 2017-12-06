@@ -11,8 +11,7 @@ text.scan(/\b[un]+\w+[ing]/)
 end
 
 def words_five_letters_long(text)
-newa=[]
-newa<<(text.match(/\b\w{5}\b/))
+text.scan(/\b\w{5}\b/))
 
 end
 
